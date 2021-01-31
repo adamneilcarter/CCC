@@ -20,8 +20,8 @@ header {
     text-align: center;
     background:#78C0A8;
     color: white;
-    font-size: 2rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
     margin: 1rem;
     border-radius: 1rem;
   }
@@ -246,7 +246,7 @@ footer {
 
 
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 920px) {
     
 
     header {
@@ -254,12 +254,12 @@ footer {
         
       }
 
-    header h2 {
+    header h1 {
         padding: 1rem;
         text-align: center;
         background:#78C0A8;
         color: white;
-        font-size: 1.5rem;
+        font-size: 2rem;
         line-height: 3rem;
         margin: 1rem;
         border-radius: 1rem;
@@ -298,4 +298,54 @@ footer {
 
   }
 
-  
+  @media screen and (max-width: 340px) {
+    
+
+    header {
+        padding: 1rem;
+        
+      }
+
+    header h1 {
+        padding: 1rem;
+        text-align: center;
+        background:#78C0A8;
+        color: white;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 1rem;
+        border-radius: 1rem;
+      }
+    
+      header h5 {
+        padding: 2rem;
+        text-align: center;
+        background:#78C0A8;
+        color: white;
+        font-size: 1rem;
+        line-height: 2rem;
+        margin: 1rem;
+        border-radius: 1rem;
+      }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      nav li {
+        float: left;
+      }
+      
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+  }
