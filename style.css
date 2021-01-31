@@ -17,7 +17,7 @@ body p {
 header {
     padding: 60px;
     text-align: center;
-    background: #37ccc7;
+    background:#78C0A8;
     color: white;
     font-size: 30px;
     margin-top: 1rem;
@@ -104,6 +104,7 @@ nav ul {
             display: block;
             margin-left: auto;
             margin-right: auto;
+            padding: 20px;
         }
 
         .postimg {
@@ -112,6 +113,7 @@ nav ul {
             display: block;
             margin-left: auto;
             margin-right: auto;
+            padding: 20px;
         }
         .postimgt {
             flex-direction: row;
@@ -119,6 +121,8 @@ nav ul {
             position: relative;
             width: 50%;
             display: block;
+            padding-bottom : 20px;
+
 
         }
 
