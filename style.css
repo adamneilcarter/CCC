@@ -255,12 +255,12 @@ footer {
       }
 
     header h2 {
-        padding: 2rem;
+        padding: 1rem;
         text-align: center;
         background:#78C0A8;
         color: white;
-        font-size: 2rem;
-        line-height: 4rem;
+        font-size: 1.5rem;
+        line-height: 3rem;
         margin: 1rem;
         border-radius: 1rem;
       }
@@ -297,3 +297,5 @@ footer {
       }
 
   }
+
+  
